@@ -9,9 +9,6 @@ fi
 clear
 trap bye EXIT
 
-create \e[1;39mby WHITE HORSE
-https://github.com/Whithss/D-TRACKER\e[1;92m
-'
 echo -e "$v[$b*$v]$b ADICIONE O IP:"
 read -p ">> " ip
 if [[ $ip == "" ]];then
@@ -118,7 +115,7 @@ link_maps="https://www.google.com/maps/place/$lan,$lon"
 echo -e "$v[*] Google Maps:$b" $link_maps
 fi
 rm infoip
-echo -e "\n$v[$b*$v]$b Deseas continuar?(y/n)"
+echo -e "\n$v[$b*$v]$b DESEJA CONTINUAR? y/n"
 read -p ">> " cn
 if [[ $cn == "y" || $cn == "Y" ]];then
 menu
