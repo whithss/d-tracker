@@ -14,8 +14,8 @@
 
 ## INSTALAÇÃO(termux):
 * `pkg install git -y`
-* `git clone https://github.com/DeepSociety/IP-Tracker`
-* `cd IP-Tracker`
+* `git clone https://github.com/Whithss/D-TRACKER/`
+* `cd D-TRACKER`
 * `chmod 771 tracker`
 * `./tracker`
 
