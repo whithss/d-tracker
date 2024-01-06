@@ -8,18 +8,9 @@ rm -rf infoip
 fi
 clear
 trap bye EXIT
-echo -e '\e[1;92m
-._____________
-|   \______   \
-|   ||     ___/ create \e[1;39mby WHITE HORSE
-|   ||    |     https://github.com/Whithss/D-TRACKER\e[1;92m
-|___||____|
-___________                     __
-\__    ___/___________    ____ |  | __ ___________ 
-  |    |  \_  __ \__  \ _/ ___\|  |/ // __ \_  __ \
-  |    |   |  | \// __ \\  \___|    <\  ___/|  | \/
-  |____|   |__|  (____  /\___  >__|_ \\___  >__|   
-                      \/     \/     \/    \/       
+
+create \e[1;39mby WHITE HORSE
+https://github.com/Whithss/D-TRACKER\e[1;92m
 '
 echo -e "$v[$b*$v]$b ADICIONE O IP:"
 read -p ">> " ip
